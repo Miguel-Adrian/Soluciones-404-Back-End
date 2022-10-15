@@ -1,0 +1,5 @@
+package com.qpets.qpetsproject.model;
+
+public class Mascota {
+
+}

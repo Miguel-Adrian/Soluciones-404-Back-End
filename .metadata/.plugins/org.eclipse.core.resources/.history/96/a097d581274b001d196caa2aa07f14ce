@@ -1,0 +1,27 @@
+package com.qpets.qpetsproject.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.qpets.qpetsproject.model.Mascota;
+
+@Service
+public class MascotaService {
+	private final MascotaRepository mascotaRepository;
+
+	@Autowired
+	public MascotaService(MascotaRepository mascotaRepository) {
+		super();
+		this.mascotaRepository = mascotaRepository;
+	}//constructor
+	
+	public List<Mascota> getMascota() {
+		return mascotaRepository.findAll();
+	}
+	
+	
+	
+
+}// class MascotaService

@@ -1,0 +1,5 @@
+package com.qpets.qpetsproject.service;
+
+public class MascotaService {
+
+}

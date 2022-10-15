@@ -1,0 +1,5 @@
+package com.qpets.qpetsproject.controller;
+
+public class MascotaController {
+
+}
