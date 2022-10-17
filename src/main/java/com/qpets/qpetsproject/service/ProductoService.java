@@ -34,7 +34,7 @@ public class ProductoService {
 		return productoRepository.save(producto);
 	}//addProducto
 	public Producto updateProducto(Integer producto_id, String nombre_producto, String descripcion
-			, BigDecimal precio, String imagen, Integer mascotas_mascota_id, Integer categorias_categorias_id) {
+			, BigDecimal precio, String imagen, Integer mascota_id, Integer categoria_id) {
 		Producto tmpProd = null;
 		if (productoRepository.existsById(producto_id)) {
 			tmpProd = productoRepository.findById(producto_id).get();
@@ -42,9 +42,11 @@ public class ProductoService {
 			if (descripcion!=null) tmpProd.setDescripcion(descripcion);
 			if (precio!=null) tmpProd.setPrecio(precio);
 			if (imagen!=null) tmpProd.setImagen(imagen);
+			if (mascota_id!=null) tmpProd.setMascota_id(mascota_id);
+			if (categoria_id!=null) tmpProd.setCategoria_id(categoria_id);
 			productoRepository.save(tmpProd);
 		} else {
-			System.out.println("Update - El Producto con el id" + producto_id + "no existe.");
+			System.out.println("Update - El Producto con el id " + producto_id + " no existe.");
 		}//if exist
 		return tmpProd;
 	}//udateProducto

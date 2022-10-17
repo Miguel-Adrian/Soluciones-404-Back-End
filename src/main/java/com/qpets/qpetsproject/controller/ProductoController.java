@@ -51,8 +51,10 @@ public class ProductoController {
 			@RequestParam (required = false) String nombre_producto,
 			@RequestParam (required = false) String descripcion,
 			@RequestParam (required = false) BigDecimal precio,
-			@RequestParam (required = false) String imagen) {
-		return productoService.updateProducto(id, nombre_producto, descripcion, precio, imagen, id, id);
+			@RequestParam (required = false) String imagen,
+			@RequestParam (required = false) Integer mascota_id,
+			@RequestParam (required = false) Integer categoria_id){
+		return productoService.updateProducto(id, nombre_producto, descripcion, precio, imagen, mascota_id, categoria_id);
 	}//updateProducto
 
 }//class ProductoController

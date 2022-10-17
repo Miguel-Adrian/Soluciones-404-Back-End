@@ -73,18 +73,26 @@ public class Producto {
 		return producto_id;
 	}
 
-	public Integer getMascotas_mascota_id() {
+	public void setMascota_id(Integer mascota_id) {
+		this.mascota_id = mascota_id;
+	}
+
+	public void setCategoria_id(Integer categoria_id) {
+		this.categoria_id = categoria_id;
+	}
+
+	public Integer getMascota_id() {
 		return mascota_id;
 	}
 
-	public Integer getCategorias_categoria_id() {
+	public Integer getCategoria_id() {
 		return categoria_id;
 	}
 
 	@Override
 	public String toString() {
 		return "Producto [producto_id=" + producto_id + ", nombre_producto=" + nombre_producto + ", descripcion="
-				+ descripcion + ", precio=" + precio + ", imagen=" + imagen + ", mascotas_mascota_id="
+				+ descripcion + ", precio=" + precio + ", imagen=" + imagen + ", mascota_id="
 				+ mascota_id + ", categoria_id=" + categoria_id + "]";
 	}//toString
 	
