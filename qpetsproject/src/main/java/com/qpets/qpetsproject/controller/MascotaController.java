@@ -36,13 +36,13 @@ public class MascotaController {
 	}//getAllMascotas
 	
 	@GetMapping (path="{mascotaId}")
-	public Mascota getMascota(@PathVariable("mascotaId")Integer id) {
-		return mascotaService.getMascota(id);
+	public Mascota getMascota(@PathVariable("mascotaId")Integer mascota_id) {
+		return mascotaService.getMascota(mascota_id);
 	}//getMascota
 	
 	@DeleteMapping (path="{mascotaId}")
-	public Mascota deleteMascota(@PathVariable("mascotaId")Integer id) {
-		return mascotaService.deleteMascota(id);
+	public Mascota deleteMascota(@PathVariable("mascotaId")Integer mascota_id) {
+		return mascotaService.deleteMascota(mascota_id);
 	}//deleteMascota
 	
 	@PostMapping
@@ -51,9 +51,9 @@ public class MascotaController {
 	}//addMascota
 	
 	@PutMapping (path="{mascotaId}")
-	public Mascota updateMascota(@PathVariable("mascotaId")Integer id,
-		@RequestParam (required = false) String nombre){
-			return mascotaService.updateMascota(id, nombre);
+	public Mascota updateMascota(@PathVariable("mascotaId")Integer mascota_id,
+		@RequestParam (required = false) String nombre_mascota){
+			return mascotaService.updateMascota(mascota_id, nombre_mascota);
 	}//updateMascota
 	
 	

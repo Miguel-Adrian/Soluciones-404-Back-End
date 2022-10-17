@@ -20,10 +20,10 @@ public class Mascota {
 	@Column(name="nombre_mascota")
 	private String nombre_mascota;
 	
-	public Mascota(Integer id, String nombre_mascota) {
+	public Mascota(Integer mascota_id, String nombre_mascota) {
 		
 		super();
-		this.mascota_id = id;
+		this.mascota_id = mascota_id;
 		this.nombre_mascota = nombre_mascota;
 	}//constructor
 	
