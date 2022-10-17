@@ -8,6 +8,6 @@ public class QpetsprojectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(QpetsprojectApplication.class, args);
-	}
+	}//main
 
-}
+}//class QpetsprojectApplication

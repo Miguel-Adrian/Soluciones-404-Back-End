@@ -21,18 +21,18 @@ public class MascotaService {
 		return mascotaRepository.findAll();
 	}//getMascotas
 	
-	public Mascota getMascota (Integer id) {
-		return mascotaRepository.findById(id).orElseThrow(
-				() -> new IllegalArgumentException("La categoría para mascota con el ID: " + id + " no existe.")
+	public Mascota getMascota (Integer mascota_id) {
+		return mascotaRepository.findById(mascota_id).orElseThrow(
+				() -> new IllegalArgumentException("La categoría para mascota con el ID: " + mascota_id + " no existe.")
 				);
 	}//getMascota
 	
 
-	public Mascota deleteMascota(Integer id) {
+	public Mascota deleteMascota(Integer mascota_id) {
 		Mascota tmpMascota = null;
-		if(mascotaRepository.existsById(id)) {
-			tmpMascota = mascotaRepository.findById(id).get();
-			mascotaRepository.deleteById(id);
+		if(mascotaRepository.existsById(mascota_id)) {
+			tmpMascota = mascotaRepository.findById(mascota_id).get();
+			mascotaRepository.deleteById(mascota_id);
 		}//if exist
 		return tmpMascota;
 	}//deleteMascota
@@ -41,11 +41,12 @@ public class MascotaService {
 		return mascotaRepository.save(mascota);
 	}//addMascota
 	
-	public Mascota updateMascota(Integer id, String nombre) {
+	public Mascota updateMascota(Integer mascota_id, String nombre_mascota) {
 		Mascota tmpMascota = null;
-		if(mascotaRepository.existsById(id)) {
-			tmpMascota = mascotaRepository.findById(id).get();
-			if (nombre != null) tmpMascota.setNombre_mascota(nombre);
+		if(mascotaRepository.existsById(mascota_id)) {
+			tmpMascota = mascotaRepository.findById(mascota_id).get();
+			if (nombre_mascota != null) tmpMascota.setNombre_mascota(nombre_mascota);
+			mascotaRepository.save(tmpMascota);
 		}//if
 		return tmpMascota;
 	}//updateMascota
