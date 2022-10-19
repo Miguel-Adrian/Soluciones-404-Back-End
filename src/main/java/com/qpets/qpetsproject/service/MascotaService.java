@@ -46,6 +46,7 @@ public class MascotaService {
 		if(mascotaRepository.existsById(id)) {
 			tmpMascota = mascotaRepository.findById(id).get();
 			if (nombre != null) tmpMascota.setNombre_mascota(nombre);
+			mascotaRepository.save(tmpMascota);
 		}//if
 		return tmpMascota;
 	}//updateMascota
