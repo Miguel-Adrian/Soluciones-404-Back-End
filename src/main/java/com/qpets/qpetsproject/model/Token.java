@@ -1,15 +1,15 @@
 package com.qpets.qpetsproject.model;
 
 public class Token {
-private final String AccessToken;
+	private final String accessToken;
 
-public Token(String accessToken) {
-	super();
-	AccessToken = accessToken;
-}
+	public Token(String accessToken) {
+		super();
+		this.accessToken = accessToken;
+	} // constructor
 
-public String getAccessToken() {
-	return AccessToken;
-}
-
-}
+	public String getAccessToken() {
+		return accessToken;
+	} // getAccessToken
+	
+} // Token

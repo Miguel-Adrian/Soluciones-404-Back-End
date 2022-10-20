@@ -56,38 +56,23 @@ public class UsuarioService {
 	          if (email!=null) tmpUsuario.setEmail(email);
 	          if (telefono!=null) tmpUsuario.setTelefono(telefono);
 	    	  if ((password !=null) && (newPassword!=null)) {
-	    		  if(password.equals(tmpUsuario.getContrasenia())) {
-	    			  tmpUsuario.setContrasenia(newPassword);
+	    		  if(password.equals(tmpUsuario.getPassword())) {
+	    			  tmpUsuario.setPassword(newPassword);
 	    			  usuarioRepository.save(tmpUsuario);
 	    		  }//if password.equals
 	    	  }//if !=null
 	      } else{
-	    	  System.out.println("update - El usuario con el id " +  userId + "no existe."); 
+	    	  System.out.println("update - El usuario con el id " +  userId + " no existe."); 
 	      } //if exist
 		return tmpUsuario;
 	} //updateUsuario
 	
-	public Usuario updateUsuario(Integer id, String nombreUsuario, String apellidoUsuario, String email, String telefono) {
-        Usuario tmpUsuario = null;
-        if(usuarioRepository.existsById(id)) {
-            tmpUsuario = usuarioRepository.findById(id).get();
-            if (nombreUsuario!=null) tmpUsuario.setNombreUsuario(nombreUsuario);
-            if (apellidoUsuario!=null) tmpUsuario.setApellidoUsuario(apellidoUsuario);
-            if (email!=null) tmpUsuario.setEmail(email);
-            if (telefono!=null) tmpUsuario.setTelefono(telefono);
-            usuarioRepository.save(tmpUsuario);
-            } else {
-                System.out.println("update - El usuario con el id " +  id + "no existe.");
-                }//if exist 
-        return tmpUsuario;
-    }//updateUsuario
-
 	public boolean validaUsuario(Usuario usuario) {
 	    boolean res = false;
-	    Optional<Usuario> userByUsername = usuarioRepository.findByUsername(usuario.getNombreUsuario());
+	    Optional<Usuario> userByUsername = usuarioRepository.findByUsername(usuario.getEmail());
 		if(userByUsername.isPresent()) {
 			Usuario u = userByUsername.get();
-			if(u.getContrasenia().equals(usuario.getContrasenia()) ) {
+			if(u.getPassword().equals(usuario.getPassword()) ) {
 				res = true;
 			}//if password
 		}//if

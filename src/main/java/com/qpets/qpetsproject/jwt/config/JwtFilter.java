@@ -17,7 +17,7 @@ import io.jsonwebtoken.MalformedJwtException;
 import io.jsonwebtoken.SignatureException;
 
 public class JwtFilter extends GenericFilterBean{
-	public static String secret = "CH17-dramaticos-memeables-embrujados-competitivos#20221014";
+	public static String secret = "qpets-la-mejor-tienda-de-mascotas#2022";
 	
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)

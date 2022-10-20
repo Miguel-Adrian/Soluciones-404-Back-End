@@ -1,6 +1,5 @@
 package com.qpets.qpetsproject.model;
 
-import javax.annotation.Generated;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,16 +25,16 @@ public class Usuario {
 	@Column(name="telefono", nullable=false)
 	private String telefono;
 	@Column(name="contrasenia", nullable= false)
-	private String contrasenia;
+	private String password;
 	public Usuario(Integer id, String nombreUsuario, String apellidoUsuario, String email, String telefono,
-			String contrasenia) {
+			String password) {
 		super();
 		this.id = id;
 		this.nombreUsuario = nombreUsuario;
 		this.apellidoUsuario = apellidoUsuario;
 		this.email = email;
 		this.telefono = telefono;
-		this.contrasenia = contrasenia;
+		this.password = password;
 	}//constructor 
 	
 	public Usuario() { }//constructor 
@@ -72,12 +71,12 @@ public class Usuario {
 		this.telefono = telefono;
 	}
 
-	public String getContrasenia() {
-		return contrasenia;
+	public String getPassword() {
+		return password;
 	}
 
-	public void setContrasenia(String contrasenia) {
-		this.contrasenia = contrasenia;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public Integer getId() {
@@ -87,7 +86,7 @@ public class Usuario {
 	@Override
 	public String toString() {
 		return "Usuarios [id=" + id + ", nombreUsuario=" + nombreUsuario + ", apellidoUsuario=" + apellidoUsuario
-				+ ", email=" + email + ", telefono=" + telefono + ", contrasenia=" + contrasenia + "]";
+				+ ", email=" + email + ", telefono=" + telefono + ", contrasenia=" + password + "]";
 	}//toString 
 	
 	
