@@ -1,0 +1,124 @@
+h1 {
+    text-align: center;
+    padding: 0.5em;
+    color: #7F3122;
+    font-size: 45px;
+    font-family: "Baloo 2";
+    margin-top: 0.5em;
+}
+
+#mainContainer{
+    background-color: #FFE6A7;
+    margin: auto;
+    padding: 2.5%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: contain;
+}
+
+.btnCard, #file-upload-button{
+    background-color: #6E3E22;
+    color: #FFE6A7;
+    border: none;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formulario{
+    font-family: 'Lato';
+}
+
+#enviar{
+    background-color: #6E3E22;
+    color: #FFE6A7;
+    border: none;
+    margin-top: 2.5%;
+}
+
+.card-title{
+    color: #6E3E22;
+}
+
+label{
+    font-size: large;
+    color: #6E3E22;
+}
+
+main form .form-control, .custom-select, .is-invalid, .is-valid, .custom-select:valid,
+main form .form-control:valid, .custom-select:invalid, main form .form-control:invalid,
+main form .form-control:focus{
+    background-color: #BB9457;
+    border: none;
+    color: white;
+}
+
+main .form-control::placeholder, .custom-select::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+main .form-control:-ms-input-placeholder, .custom-select:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+    color: white;
+}
+
+main .form-control::-ms-input-placeholder, .custom-select::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+h3{
+    font-family: "Baloo 2";
+    color: #6E3E22;
+    font-size: 32px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .card-img-top{
+        height: auto;
+    }
+}
+
+/* ----------Estilo para input de agregar imagen de producto--------- */
+.contenedor-btn-file input[type="file"] {
+    appearance: none;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+}
+.contenedor-btn-file {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    background-color: #fff1c0;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .15);
+}
+
+.contenedor-btn-file label {
+    color: #6E3E22;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Baloo 2';
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+/* ------Cierra estilo para input de agregar imagen de producto------ */

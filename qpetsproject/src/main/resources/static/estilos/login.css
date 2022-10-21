@@ -1,0 +1,106 @@
+
+/* baloo-2-regular - latin */
+@font-face {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/balo/baloo-2-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../src/fonts/balo/baloo-2-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../src/fonts/balo/baloo-2-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../src/fonts/balo/baloo-2-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../src/fonts/balo/baloo-2-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../src/fonts/balo/baloo-2-v14-latin-regular.svg#Baloo2') format('svg'); /* Legacy iOS */
+}
+
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/lato/lato-v23-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../src/fonts/lato/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../src/fonts/lato/lato-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../src/fonts/lato/lato-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../src/fonts/lato/lato-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../src/fonts/lato/lato-v23-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
+
+#mainContainer{
+    background-color: #FFE6A7;
+    border-radius: 10px;
+    max-width: 700px;
+}
+h1 {
+    text-align: center;
+    color: #7F3122;
+}
+label{
+    font-family: "Baloo 2";
+    margin-top: 0.5em;
+    font-size: 23px;
+    color: #6E3E22;
+}
+
+main form .form-control, .custom-select, .is-invalid, .is-valid, .custom-select:valid,
+main form .form-control:valid, .custom-select:invalid, main form .form-control:invalid,
+main form .form-control:focus{
+    background-color: #BB9457;
+    border: none;
+    color: white;
+}
+
+main form .form-control, .custom-select, .is-invalid, .is-valid, .custom-select:valid,
+main form .form-control:valid, .custom-select:invalid, main form .form-control:invalid,
+main form .form-control:focus{
+    background-color: #BB9457;
+    border: none;
+    color: white;
+}
+
+main .form-control::placeholder, .custom-select::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+main .form-control:-ms-input-placeholder, .custom-select:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+    color: white;
+}
+
+main .form-control::-ms-input-placeholder, .custom-select::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+button{
+    font-family: "Baloo 2";
+}
+button:hover{
+    transition: all 250ms;
+    transform: scale(1.02);
+    border-color: #7F3122;
+}
+.linkNuevaCuenta, .form-check a{
+    font-size:medium;
+}
+.linkNuevaCuenta:hover, .form-check a:hover{
+    font-size:large;
+    transition: all 300ms;
+    border-radius: 15px;
+}
+
+.form-check a{
+    text-decoration: underline;
+    color: #6E3E22;
+}
+
+.form-check a:hover{
+    text-decoration: underline;
+    color: #6E3E22;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin-right: 10px;
+}

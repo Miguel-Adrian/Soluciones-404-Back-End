@@ -1,0 +1,141 @@
+[
+    {
+        "id": 1, "name": "Dona chillona",
+        "img": "../src/images/catalogo/DogSqueakyDonut.png",
+        "description": "El juguete emite un chillido cuando es presionada, algo que le encantará a tu perro, sea cachorro o adulto.",
+        "price": 199.00, "pet": "Perro", "category": "Juguetes para perro"
+    },
+    
+    {
+        "id": 2, "name": "Huesito Fiu-Fiu",
+        "img": "../src/images/catalogo/DogRubberBone.png",
+        "description": "Hueso de caucho de uso rudo. Ideal para canes adultos. Este juguete puede ser útil para evitar que tu perro muerda objetos que no debería morder. Antiestrés.",
+        "price": 120.00, "pet": "Perro", "category": "Juguetes para perro"
+    },
+    
+    {
+        "id": 3, "name": "Hoodie para Perro",
+        "img": "../src/images/catalogo/HoodiePerro.png",
+        "description": "Protege a tu perrito del frío con este adorable hoodie",
+        "price": 400,
+        "pet": "Perro",
+        "category": "Accesorios para perro"
+    },
+    
+    {
+        "id": 4, "name": "Beanie para Perro",
+        "img": "../src/images/catalogo/beaniePerro.png",
+        "description": "Perfecto para salir a la calle",
+        "price": 100,
+        "pet": "Perro",
+        "category": "Accesorios para perro"
+    },
+    
+    {
+        "id": 5, "name": "Alimento Purina Dog Chow de 15 Kg",
+        "img": "../src/images/catalogo/alimentoparaperro1.jpg",
+        "description": "Alimento PURINA DOG CHOW para adulto. Tamaño de raza: medianos y grandes.",
+        "price": 749,
+        "pet": "Perro",
+        "category": "Alimento para perro"
+    },
+    
+    {
+        "id": 6, "name": "Alimento para perro de la marca NUPEC 2 Kg",
+        "img": "../src/images/catalogo/alimentoparaperro5.jpg",
+        "description": "alimento con el balance de vitaminas, minerales, grasas, proteínas y energía adecuados para esta etapa de vida que definirá su calidad de vida adulta.",
+        "price": 265,
+        "pet": "Perro",
+        "category": "Alimento para perro"
+    },
+    
+    {
+        "id": 7, "name": "Shampo en barra para perro",
+        "img": "../src/images/catalogo/Shampoo-perro-barra.png",
+        "description": "Shampo en barra para perros, elimina malos olores de tu perro y deja su pelo suave y brilloso previene de pulgas y garrapatas",
+        "price": 30.00,
+        "pet": "Perro",
+        "category": "Limpieza para perro"
+    },
+    
+    {
+        "id": 8, "name": "Limpieza dental para perro",
+        "img": "../src/images/catalogo/limpieza-dental.png",
+        "description": "Dale un buen cuidado bucal a tu perro previniendo así enfermedades/bacterias y malos olores",
+        "price": 120.00,
+        "pet": "Perro",
+        "category": "Limpieza para perro"
+    },
+    
+    {
+        "id": 9, "name": "Dispensador de snack para gato",
+        "img": "https://www.petsonic.com/blog/wp-content/uploads/2018/10/juguete-gato-1.png",
+        "description": "Logra que tu gatito se mantenga saludable y entretenido con este dispensador de bocadillos, que lo estimula física y mentalmente", "price": 500,
+        "pet": "Gato", "category": "Juguetes para gato"
+    },
+    
+    {
+        "id": 10, "name": "Túnel para gatos",
+        "img": "https://aristopet.com/wp-content/uploads/2020/11/tunel-1.png",
+        "description": "Dale un lugar seguro, obscuro y muy entretenido a tu gato, su instinto de cacería siempre estará en sus juegos con este túnel", "price": 350,
+        "pet": "Gato", "category": "Juguetes para gato"
+    },
+    
+    {
+        "id": 11, "name": "Ropa para gato hawaiana",
+        "img": "../src/images/catalogo/RopaGatoHawaianai.jpg",
+        "description": "Fresca y comoda camisa  hawaiana ",
+        "price": 350,
+        "pet": "Gato",
+        "category": "Accesorios para gato"
+    },
+    
+    {
+        "id": 12, "name": "Ropa para gato kimono",
+        "img": "../src/images/catalogo/RopaGatoKimono.jpg",
+        "description": "Tradicional kimono japonés neko",
+        "price": 400,
+        "pet": "Gato",
+        "category": "Accesorios para gato"
+    },
+    
+    {
+        "id": 13, "name": "Loco por la comida",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_884668-MLM50166068178_062022-O.jpg",
+        "description": "Deliciosa comida para compartir para todos los gatos, contiene pescado producto importado.", "price": 150
+        , "pet": "Gato", "category": "Alimento para gato"
+    },
+    
+    {
+        "id": 14, "name": "Me gusta sobre",
+        "img": "https://www.costco.com.mx/medias/sys_master/products/hc7/hce/62467576070174.jpg",
+        "description": "Deliciosos sobres de Whiskas, caja con 24 piezas para tener en todo el mes y poder darle ese regalo a tu gato glotón.", "price": 436
+        , "pet": "Gato", "category": "Alimento para gato"
+    },
+    
+    {
+        "id": 15,
+        "name": "Shampoo para gato",
+        "img": "../src/images/catalogo/ShampooGato.png",
+        "description": "Shampoo para gato, elimina malos olores de tu felino dejando su pelo suave y con un agradable aroma.",
+        "price": 145.00,
+        "pet": "Gato",
+        "category": "Limpieza para gato"
+    },
+    
+    {
+        "id": 16,
+        "name": "Cepillo dental para gato",
+        "img": "../src/images/catalogo/CepilloDientesGato.png",
+        "description": "Este kit de cuidado dental cuenta con un cepillo de dientes y una pasta de dientes para gatos con sabor a pollo para que no tengas líos con la aceptación de tu felino hacia la pasta. ",
+        "price": 140.00, "pet": "Gato",
+        "category": "Limpieza para gato"
+    },
+    
+    {
+        "id": 17, "name": "K-sita K9 Suite de 2 plantas",
+        "img": "../src/images/catalogo/DogHouse2.png",
+        "description": "¿Acaso hay más un un miembro peludo en la familia? ¡No hay problema! Esta hermosa suite para dos amiguit@s está pensada exclusivamente para ahorrar espacio.",
+        "price": 10011.00, "pet": "Perro", "category": "Accesorios para perro"
+    }
+    ]

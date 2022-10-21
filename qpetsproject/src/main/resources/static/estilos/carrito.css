@@ -1,0 +1,96 @@
+.wrapper {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    justify-content: center;
+    font-family: "Baloo 2";
+    background-color: #ffedbe;
+    -webkit-box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    animation: slideUp 2000ms ease;
+}
+
+@keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    text-align: center;
+    padding: 0.5em;
+    color: #7F3122;
+    font-size: 30px;
+    font-family: "Baloo 2";
+    margin-top: 0.2em;
+}
+
+.btns{
+    font-family: "Lato";
+    padding-bottom: 2em;
+}
+
+.btn{
+    background-color: #7F3122;
+     border: none;
+ }
+ 
+ #titulo{
+    background-color: #ffedbe;
+ }
+
+ #perritoconbolsa{
+     margin-top: 0.8em;
+ }
+ 
+ .table{
+     background-color: #ffedbe;
+     border: #7F3122;
+ 
+ }
+ 
+ .tt1{
+     font-family: "Lato";
+     font-weight: bold; 
+     color: #7F3122;
+     font-size: 20px;
+ }
+ 
+ #info{
+     font-family: "Lato";
+     font-weight: bold; 
+     color: #7F3122;
+     font-size: 15px; 
+ }
+ 
+ input{
+    background-color: #fffcf6;
+    font-family: "Lato";
+    border-radius: 5px;
+ }
+
+ label{
+    font-family: "Baloo 2";
+    font-size: large;
+    color: #5d2014;
+    box-shadow: none;
+ }
+
+ #totalCarrito{
+    font-size: 24px;
+    color: #5d2014;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: center;
+ }
+
+ #contMenu{
+    border-radius: 10px;
+ }

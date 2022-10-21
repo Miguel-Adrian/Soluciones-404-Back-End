@@ -1,0 +1,127 @@
+/* Fuentes */
+
+/* baloo-2-regular - latin */
+  @font-face {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/balo/baloo-2-v14-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.svg#Baloo2') format('svg');
+    /* Legacy iOS */
+}
+
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/lato/lato-v23-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../src/fonts/lato/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../src/fonts/lato/lato-v23-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../src/fonts/lato/lato-v23-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../src/fonts/lato/lato-v23-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../src/fonts/lato/lato-v23-latin-regular.svg#Lato') format('svg');
+    /* Legacy iOS */
+}  
+
+/* Header */
+
+
+nav {
+    background-color: #6F1D1B;
+}
+
+.menuLink{
+    color:white;
+}
+.menuLink:hover{
+
+        transform: scale(1.05);
+        transition: all 200ms;
+        background-color:#862321;
+        border-radius: 12px;
+}
+
+/*
+.navInf a {
+    color: white;
+    font-family: 'Lato';
+}*/
+
+
+.navInf img {
+    height: 50px;
+}
+
+.iconoBuscar{
+    position: absolute;
+    margin: 10px;
+    top: 15px;
+    margin-left: 198px;
+}
+
+/* Footer */
+
+footer {
+    color: #FFE6A7;
+    font-family: 'Lato';
+}
+
+footer a,
+footer a:focus,
+footer a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.imgRedes:hover {
+    transform: scale(1.25);
+    /* Al pasar el cursor hace una transformación a una escala de 1.25 */
+    transition: all 400ms;
+    /* La transformación toma un tiempo de 400ms (hace más suave la animación) */
+}
+
+#btnEnviar:hover {
+    transform: scale(1.1);
+    transition: all 200ms;
+}
+
+.logoHeader{
+    border-radius: 15px;
+    justify-content: center;
+}
+
+
+.logoFooter {
+    border-radius: 15px;
+}
+
+#topFooter{
+    background-color: #6E3E22;
+}
+
+#bottomFooter{
+    padding-top: 10px;
+    background-color: #432818;
+}
