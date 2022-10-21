@@ -1,0 +1,38 @@
+h2 {
+    color: #7F3122;
+    font-size: 40px;
+    font-family: "Baloo 2";
+    text-align: center;
+    padding: 0.5em;
+    padding-top: 1em;
+}
+
+section{
+    background-color: #FFE6A7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section p{
+    font-family: "Lato";
+    color: #6E3E22;
+    font-size: 18px;
+    text-align: justify;
+}
+
+section h3{
+    font-family: "Baloo 2";
+    color: #6E3E22;
+    font-size: 20px;
+}
+
+section h4{
+    font-family: "Baloo 2";
+    color: #6E3E22;
+}
+
+@media (max-width: 576px) {
+    main{
+        background-color: #FFE6A7;
+    }
+}

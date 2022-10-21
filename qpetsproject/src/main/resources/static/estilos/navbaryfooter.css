@@ -1,0 +1,98 @@
+/* Fuentes */
+
+/* baloo-2-regular - latin */
+@font-face {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/balo/baloo-2-v14-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../src/fonts/balo/baloo-2-v14-latin-regular.svg#Baloo2') format('svg');
+    /* Legacy iOS */
+}
+
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/lato/lato-v23-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../src/fonts/lato/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../src/fonts/lato/lato-v23-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../src/fonts/lato/lato-v23-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../src/fonts/lato/lato-v23-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../src/fonts/lato/lato-v23-latin-regular.svg#Lato') format('svg');
+    /* Legacy iOS */
+}
+
+/* Header */
+
+nav {
+    background-color: #6F1D1B;
+}
+
+
+.navInf a {
+    color: white;
+    font-family: 'Lato';
+}
+
+.navInf img {
+    height: 50px;
+    background-color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: #432818;
+    color: #FFE6A7;
+    font-family: 'Lato';
+}
+
+footer a,
+footer a:focus,
+footer a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.imgRedes:hover {
+    transform: scale(1.25);
+    /* Al pasar el cursor hace una transformación a una escala de 1.25 */
+    transition: all 400ms;
+    /* La transformación toma un tiempo de 400ms (hace más suave la animación) */
+}
+
+#btnEnviar:hover {
+    transform: scale(1.1);
+    transition: all 200ms;
+}
+
+.logoFooter {
+    border-radius: 15px;
+}
+
+.logoHeader{
+    border-radius: 15px;
+}

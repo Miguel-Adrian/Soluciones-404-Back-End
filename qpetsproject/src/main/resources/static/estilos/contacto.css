@@ -1,0 +1,102 @@
+/* Estilos para la barra de título */
+h1{
+    background: #FFe6A7;
+    font-family: "Baloo 2";
+    padding: 35px;
+  
+    text-align: center;
+    color: #432818;
+}
+
+/* Estilos para el main del contacto.html*/
+main {
+    font-family: "Lato";
+    background-color:#FFe6A7;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+}
+/* Estilos para el body del contacto.html*/
+body{
+    font-family: "Lato";
+/*     background-image: url(https://img.freepik.com/vector-premium/ilustracion-divertidos-dibujos-animados-perros-gatos-lindos-mejores-amigos_112554-246.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+/* Estilos para las etiquetas <label> del contacto.html*/
+label{
+    font-family: "Lato";
+    color: #432818;
+    font-size: 20px;
+}
+/* Estilos para los iconos que están por encima de los campos en el archivo contacto.html*/
+.imgIcon{
+    padding: 4px;
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.form-group{
+    align-items: center;
+}
+
+#gatoContacto{
+    width: 480px;
+    border-radius: 10px;
+}
+
+main form .form-control, .custom-select, .is-invalid, .is-valid, .custom-select:valid,
+main form .form-control:valid, .custom-select:invalid, main form .form-control:invalid,
+main form .form-control:focus{
+    background-color: #BB9457;
+    border: none;
+    color: white;
+}
+
+main .form-control::placeholder, .custom-select::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+main .form-control:-ms-input-placeholder, .custom-select:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+    color: white;
+}
+
+main .form-control::-ms-input-placeholder, .custom-select::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+#btnEnviar{
+    background-color: #6E3E22;
+    color: #FFE6A7;
+    border: none;
+}
+
+.form-check a{
+    text-decoration: underline;
+    color: #6E3E22;
+    font-size:medium;
+}
+
+.form-check a:hover{
+    text-decoration: underline;
+    color: #6E3E22;
+    font-size:large;
+    transition: all 300ms;
+    border-radius: 15px;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin-right: 10px;
+}

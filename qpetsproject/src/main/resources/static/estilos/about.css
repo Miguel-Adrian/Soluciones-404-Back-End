@@ -1,0 +1,294 @@
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.articulosCarrito{
+    background-color:#FFE6A7;
+}
+
+.resumenCompra{
+    background-color: #FFe6A7;
+}
+h1 {
+    text-align: center;
+    padding: 0.5em;
+    color: #7F3122;
+    font-size: 45px;
+    font-family: "Baloo 2";
+}
+
+h2 {
+    text-align: center;
+    color: #7F3122;
+    margin-top: 55px;
+    font-family: "Baloo 2";
+    font-size: 60px;
+    padding: 50px;
+}
+
+article h3 {
+    margin-left: 40px;
+    color: #7F3122;
+    font-family: "Baloo 2";
+    font-weight: bold;
+}
+
+article p {
+    margin-left: 40px;
+    color: black;
+    font-family: "Baloo 2";
+    font-weight: bold;
+}
+
+section p {
+    text-align: justify;
+    font-family: serif;
+    font-family: "Lato";
+}
+
+
+.p-2 .bd-highlight {
+    background-color: antiquewhite;
+}
+
+
+.cont2 {
+    margin-top: 20px;
+}
+
+.cont3 {
+    margin-top: 20px;
+}
+
+.cont4 {
+    margin-top: 20px;
+}
+
+/* article{ margin: 0.5em 3em; padding: 0.5em 2em; background-color:#F0BC56 } */
+
+#containerAbout{
+    background-color: #FFE6A7;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.somosq h1 {
+    color: #7F3122;
+    font-size: 35px;
+    font-family: "Baloo 2";
+    text-align: center;
+
+}
+
+.gatito {
+
+    width: 280px;
+    height: 280px;
+    margin-top: -150px;
+    margin-left: 20%;
+
+}
+
+#tituloPrincipal{
+    font-weight: 1000;
+    font-size: 64px;
+    background-color: #F0BC56;
+    color: #6E3E22;
+    text-align: center;
+    font-family: 'Baloo 2';
+    margin-top: 60px;
+}
+
+.gatito img {
+    width: 280px;
+    height: 280px;
+}
+
+.parrafoabout {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#aboutparrafo{
+    margin: 30px;
+    padding-top: 60px;
+    padding-bottom: 5%;
+}
+
+/* Estilos para las cards */
+.bio p {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.containerCard{
+    max-width: auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    position: relative;
+    font-family: 'Lato';
+    transition: all 300ms;
+    padding: 20px;
+    border: none;
+}
+.card:hover{
+    box-shadow: 1px 1px 20px -15px #20202049;
+}
+.card:hover .bio{
+    margin-top: -5px;
+    border-radius: 0px 0px 20px 20px;
+}
+.card:hover .foto{
+    margin-top: -105px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.foto{
+    width: 100%;
+    height: 270px;
+    background:rgb(240, 197, 89);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: all 300ms cubic-bezier(0.5, 0, 0, 0);
+    border-radius: 15px;
+    /* opacity: 0.5; */ /* Comprueba que el texto esta detrás */
+}
+.bio{
+    width: 100%;
+    height: 220px;
+    color: #474747;
+    background:rgb(255, 235, 171);
+    padding: 15px;
+    position: relative;
+    margin-top:-220px;
+    transition: all 300ms cubic-bezier(0.5, 0, 0, 0);
+    border-radius: 15px;
+}
+.bio p{
+    font-size: 15px;
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 8;
+    line-clamp: 8;
+    overflow: hidden;
+    color: #6E3E22;
+    font-family: 'Baloo 2';
+}
+.imglink{
+    padding: 2px;
+}
+
+/* Color de cards */
+
+.tituloQpets{
+    font-weight: 1000;
+    font-size: 64px;
+    background: #FFE6A7;
+    color: #6F1D1B;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    font-family: 'Baloo 2';
+}
+
+.foto{
+    padding: 100px;
+}
+
+.p-2{
+    border-radius: 20px;
+    margin: 15px;
+    background-color: #F0BC56;
+    margin-bottom: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: #FFe6A7;
+}
+
+.huellita{
+    margin-top: -75px;
+    margin-left: -25px;
+}
+
+.bi-github{
+    font-size: 32px;
+    color:#6E3E22;
+    justify-content: space-around;
+    padding-right: 8px;
+}
+
+.bi-linkedin{
+    font-size: 32px;
+    color:#6E3E22;
+    justify-content: space-around;
+    padding-left: 8px;
+}
+
+
+
+@media (min-width: 993px) {
+    #tituloPrincipal{
+        padding-top: 100px;
+        text-align: right;
+        padding-right: 200px;
+    }
+
+    .p-2{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 24px;
+    }
+
+    #aboutparrafo{
+        font-size: 24px;
+    }
+
+    .huellita{
+        width: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    #containerAbout{
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #FFE6A7;
+        width: 90%;
+    }
+
+    .p-2, .parrafoabout{
+        margin-bottom: 30%;
+    }
+
+    .huellita{
+        display: none;
+    }
+
+    #aboutparrafo{
+        visibility: hidden;
+        height:10px;
+    }
+}
